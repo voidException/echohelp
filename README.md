@@ -1,2 +1,0 @@
-# echohelp
-help each
