@@ -1,18 +1,16 @@
 
 
-//let commonUrl='http://192.168.10.107:8080/glove';   //开发用的
-//let commonUrl='http://192.168.10.107/glove';  //本地打包部署用
-//let commonUrl='http://123.57.135.20/glove';  //阿里云服务器打包部署用
-let commonUrl='http://123.57.135.20';  //阿里云服务器打包部署用
+//let commonUrl='http://192.168.10.101:8080/glove';   //开发用的
 
-export const URLLogin=commonUrl+'/user/login';
-export const URLRegister=commonUrl+'/user/register';
-export const URLFindPasswd=commonUrl+'/user/findpassword';
+let commonUrl='http://192.168.1.165:8080/glove';  //
+export const URLLogin=commonUrl+'/user/login.do';
+export const URLRegister=commonUrl+'/user/register.do';
+export const URLFindPasswd=commonUrl+'/user/findpassword.do';
 
 // export const URLUserPageWeibo=commonUrl+'/userpage/weibos/gettweetbyuserid'; //咋userPage页面查看对方发布的微博
 // export const URLTuiwenPage =commonUrl+'/weibos/gettweetbyuserid'; //适合查看自己发布转发的
 // export const URLmainPageWeiBo=commonUrl+'/weibos/gettuiwenlists';//适合查用户关注的推文
-export const URLWeiboPage=commonUrl+'/tuiwen/getTweetByOtherUseriD'; //咋userPage页面查看对方发布的微博
+export const URLWeiboPage=commonUrl+'/tuiwen/getTweetByOtherUseriD.do'; //咋userPage页面查看对方发布的微博
 export const URLTweetPage =commonUrl+'/tuiwen/getMyselfPublishedTweetByMyiD'; //适合查看自己发布转发的
 export const URLTuiwenPage=commonUrl+'/tuiwen/getTweetByUseriD';//适合查用户关注的推文
 

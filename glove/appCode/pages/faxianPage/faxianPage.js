@@ -100,6 +100,7 @@ let loveImg = require('../../image/25.jpg');//慈善排行榜
 				<View style={styles.topper}>			    
 				    <Text style={{fontSize:18,color:'#fff'}}>发现</Text>
 				</View>
+
 				<View style={styles.ad}>
 					<View style={styles.superUs}>
 						<Text style={{color:'green'}}>谁来监督我们?</Text>

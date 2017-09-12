@@ -106,7 +106,7 @@ export default class AddHelpMan extends Component{
 	    formData.append("jwZhengming",this.state.jwZhengming); //是否有居委证明
 	    formData.append("yyZhengming",this.state.yyZhengming); //是否有医院证明
 	    formData.append("yyZhengming",this.state.yyZhengming); //是否贫困证明
-	    formData.append("relationZhengming",this.state.relationZhengming); //是否有其它权威证明
+	    formData.append("relationZhengming",this.state.relationZhengming);
 
 	    formData.append("chengnuoType",this.state.chengnuoType); //承诺的类型
 	    formData.append("chengnuoContent",this.state.chengnuoContent); //承诺的话
@@ -280,7 +280,7 @@ export default class AddHelpMan extends Component{
 	          			this.setState({
 				            imgFourUrl: source
 				        });
-				        formData.append("filefoure", {uri: uri, type: 'image/jpeg',name:'filetfoure'});
+				        formData.append("filefour", {uri: uri, type: 'image/jpeg',name:'filetfoure'});
 	          		}else if (tag===5) {
 	          			this.setState({
 				            imgFiveUrl: source

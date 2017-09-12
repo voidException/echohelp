@@ -123,12 +123,12 @@ function mapStateToProps(state,ownProps){
 		userProfile,
 	}
 }
-const mapDispatchToProps=(dispatch,ownProps)=>{
-	return {
-		increment:(id)=>dispatch(actions.increment(id)),
-		someActions:bindActionCreators(counterActions,dispatch)
-	}
-}
+// const mapDispatchToProps=(dispatch,ownProps)=>{
+// 	return {
+// 		increment:(id)=>dispatch(actions.increment(id)),
+// 		someActions:bindActionCreators(counterActions,dispatch)
+// 	}
+// }
 
 const MyNavigator=connect(mapStateToProps)(INavigator);
 export default MyNavigator

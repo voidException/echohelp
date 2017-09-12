@@ -123,6 +123,7 @@ class HelpPageP extends Component{
 		           		<Text style={{color:'#4EB160',marginLeft:-40}}>只为温暖世界的每一处角落。</Text>
 		           	</View>			  
 		        </View>
+
 		        <View style={styles.clubInfo}>
 		        	<View style={styles.yong}>
 		        		<Image source={require('./image/plants_003.png')} resizeMode={'cover'} style={{width:25,height:25}}/>
